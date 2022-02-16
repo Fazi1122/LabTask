@@ -30,7 +30,7 @@ public class fragmentOne extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 fragmenttwo two =(fragmenttwo) getFragmentManager().findFragmentById(R.id.fragment2);
-               //two.setimage("Mobile:>"+system[i]);
+               two.setimage("Mobile:>"+system[i]);
 
             }
         });
